@@ -77,7 +77,7 @@ def reformat_languages(languages)
   
   #iterate through original languages hash 
   languages.each do |style, style_group|
-    style_group.each do |lang|
+    style_group.each do |lang_hash|
       binding.pry
     end
   end
