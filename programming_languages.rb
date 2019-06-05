@@ -76,7 +76,7 @@ def reformat_languages(languages)
   new_hash = {}
   
   #iterate through original languages hash 
-  languages.each do |style__group, lang|
+  languages.each do |style_group, lang|
     binding.pry
   end
   
