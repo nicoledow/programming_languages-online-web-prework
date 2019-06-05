@@ -75,10 +75,12 @@ end
 def reformat_languages(languages)
   new_hash = {}
   
-  #iterate through original languages hash 
+  #iterate through original languages hash down to language names
   languages.each do |style, style_group|
     style_group.each do |lang_hash|
-      binding.pry
+      lang_hash.each do |lang|
+        binding.pry
+      end
     end
   end
   
