@@ -80,7 +80,12 @@ def reformat_languages(languages)
     
     #for each 
     lang_group.each do |lang, lang_info|
-      new_hash[lang] = {}
+      if new_hash.has_key?(lang)
+        
+      else
+        new_hash[lang] = {}
+        new_hash[lang][:type] = 
+      end
     end
   end
   
