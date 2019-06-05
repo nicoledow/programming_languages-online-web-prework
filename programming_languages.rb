@@ -54,8 +54,8 @@ def reformat_languages(languages)
 end
 
 reformat_languages(languages)
-=end
 
+#USE THIS ONE?:
 def reformat_languages(languages)
   new_hash = {}
   
@@ -66,6 +66,17 @@ def reformat_languages(languages)
       new_hash[name][:style] = []
       new_hash[name][:style] << lang_style
     end
+  end
+  
+  new_hash
+end
+=end
+
+def reformat_languages(languages)
+  new_hash = {}
+  
+  languages.each do |style|
+    binding.pry
   end
   
   new_hash
